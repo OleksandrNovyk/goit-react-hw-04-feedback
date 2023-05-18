@@ -41,7 +41,7 @@ export const App = () => {
 
   return (
     <Container>
-      <Section title="Please leave feedback">
+      <Section title="Please leave your feedback">
         <FeedbackOptions
           options={['good', 'neutral', 'bad']}
           onLeaveFeedback={onLeaveFeedback}
