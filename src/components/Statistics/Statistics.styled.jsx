@@ -13,8 +13,7 @@ export const StatWrapper = styled.ul`
   list-stile: none;
   margin: 0;
   background-color: hsla(215, 98%, 79%, 0.2);
-  border: 2px solid blanchedalmond;
-  box-shadow: 10px 12px 12px 0px #cab1b14d;
+  border: 2px solid lightblue;
 `;
 
 export const StatItem = styled.li`
@@ -26,9 +25,9 @@ export const StatItem = styled.li`
   align-items: center;
   padding: 6px 12px;
   border-radius: 12px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-shadow: 2px 2px 5px #fff;
 
   & > svg {
-    margin-right: 24px;
+    margin-right: 20px;
   }
 `;

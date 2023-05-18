@@ -11,7 +11,6 @@ export const Btn = styled.button`
   text-transform: capitalize;
   border: none;
   background-color: transparent;
-  box-shadow: 0px 12px 8px 4px #cab1b14d;
   transform: scale(1);
   cursor: pointer;
   background-color: ${props =>
@@ -24,7 +23,6 @@ export const Btn = styled.button`
   &:hover,
   &:focus {
     transform: scale(1.2);
-    box-shadow: 0px 14px 6px 4px #cab1b98c;
   }
   &:active {
     transform: scale(1.2);

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { BsEmojiHeartEyes, BsEmojiNeutral, BsEmojiFrown } from 'react-icons/bs';
+import { BsEmojiSunglasses, BsEmojiExpressionless, BsEmojiFrown } from 'react-icons/bs';
 import { AiOutlinePercentage } from 'react-icons/ai';
 import { TbFileLike } from 'react-icons/tb';
 import { StatWrapper, StatItem } from './Statistics.styled';
@@ -16,11 +16,11 @@ export const Statistics = ({
     return (
       <StatWrapper>
         <StatItem>
-          <BsEmojiHeartEyes />
+          <BsEmojiSunglasses />
           {good}
         </StatItem>
         <StatItem>
-          <BsEmojiNeutral />
+          <BsEmojiExpressionless />
           {neutral}
         </StatItem>
         <StatItem>
