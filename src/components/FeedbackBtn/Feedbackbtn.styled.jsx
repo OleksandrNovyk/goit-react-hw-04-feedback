@@ -15,10 +15,10 @@ export const Btn = styled.button`
   cursor: pointer;
   background-color: ${props =>
     props.status === 'good'
-      ? 'rgba(0, 128, 75, 0.7)'
+      ? 'rgba(0, 128, 75, 0.8)'
       : props.status === 'neutral'
-      ? 'rgba(224, 201, 50, 0.6)'
-      : 'rgba(202, 30, 30, 0.6)'};
+      ? 'rgba(224, 201, 50, 0.8)'
+      : 'rgba(202, 30, 30, 0.8)'};
 
   &:hover,
   &:focus {
